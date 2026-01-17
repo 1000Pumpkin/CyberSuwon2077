@@ -1,0 +1,10 @@
+﻿  GameScene.cpp
+E:\경진반\2020 지방대회\CyberS\GameScene.cpp(187,26): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/GameScene.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다.
+  1 of 1773 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    14 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  CyberS.vcxproj -> E:\경진반\2020 지방대회\CyberS\Release\CyberS.exe

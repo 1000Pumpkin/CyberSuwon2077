@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Main">
+      <UniqueIdentifier>{12b89640-ec21-43f0-8fbb-060ef02e02da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Direct3D">
+      <UniqueIdentifier>{de7c56cc-a52d-41e5-bc10-ef0649d79c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Utils">
+      <UniqueIdentifier>{cfded890-5482-4823-9ab9-0252488e998e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{ae012ec3-8017-41ff-a1dc-780750cf4c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene">
+      <UniqueIdentifier>{9ce626a8-0fe9-48f5-a1e7-8cdf41d21435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene\Objs">
+      <UniqueIdentifier>{b98b0a23-7e90-4fe5-8070-3bdd450842bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene\Objs\Character">
+      <UniqueIdentifier>{fb79bdbb-dc70-4f8e-b686-2ceb8a8e5e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene\Objs\Character\Player">
+      <UniqueIdentifier>{599b4c63-ff6b-41dd-bcee-f8c89c2ed0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene\Objs\Character\Skill">
+      <UniqueIdentifier>{d403ae5f-a19b-49b6-833b-0e8b9a609bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene\Objs\Effect">
+      <UniqueIdentifier>{60663605-503f-4350-bb3e-016c161d7232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene\Objs\Character\Bullet">
+      <UniqueIdentifier>{850eb488-2e17-4b2e-9dae-a956c4cce846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene\Objs\MapLayer">
+      <UniqueIdentifier>{3d17c61b-a42d-4dab-b428-1683ae5d32c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene\UI">
+      <UniqueIdentifier>{549f9171-60cf-48c2-9a07-b2431271964b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene\Objs\Item">
+      <UniqueIdentifier>{0ca0c2f9-6e9e-445c-98dd-ddd9acbf14ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\02. TitleScene">
+      <UniqueIdentifier>{a9b5ed70-781e-4a45-a9a3-312154c20006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\02. TitleScene\Button">
+      <UniqueIdentifier>{d22de884-7073-42bd-9dbf-98bab1bc75a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\03. HowToScene">
+      <UniqueIdentifier>{b54200fb-2b6e-4218-a6dc-b5dc97a0e19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\04. RankingScene">
+      <UniqueIdentifier>{2ec6c9a0-53f7-4372-8b52-216588c99cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\05. LoadingScene">
+      <UniqueIdentifier>{3e8c8fe3-115c-4783-bd41-f481197b5e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\01. GameScene\Objs\Character\Enemy">
+      <UniqueIdentifier>{46dad3db-740e-432b-8cd8-db3e6b8b7e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\06. EditorScene">
+      <UniqueIdentifier>{3a10690d-3c4e-451e-9085-2dd03aef5fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\07. ResultScene">
+      <UniqueIdentifier>{e5b8566c-861d-41c5-ac35-d44f9d5198f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>00. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>01. Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>99. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>99. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>01. Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>01. Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>01. Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="FRECT.h">
+      <Filter>99. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>01. Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scenes\01. GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Scenes\01. GameScene\Objs\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Scenes\01. GameScene\Objs\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>99. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>99. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Scenes\01. GameScene\Objs\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Scenes\01. GameScene\Objs\Character\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Scenes\01. GameScene\Objs\Character\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLayer.h">
+      <Filter>Scenes\01. GameScene\Objs\MapLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Scenes\01. GameScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Scenes\01. GameScene\Objs\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scenes\02. TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Scenes\02. TitleScene\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToScene.h">
+      <Filter>Scenes\03. HowToScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>Scenes\05. LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingScene.h">
+      <Filter>Scenes\04. RankingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingManager.h">
+      <Filter>Scenes\04. RankingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Scenes\01. GameScene\Objs\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorScene.h">
+      <Filter>Scenes\06. EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawnObject.h">
+      <Filter>Scenes\06. EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>Scenes\07. ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitBullet.h">
+      <Filter>Scenes\01. GameScene\Objs\Character\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>01. Direct3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>01. Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>01. Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>01. Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01. Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scenes\01. GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Scenes\01. GameScene\Objs\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Scenes\01. GameScene\Objs\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>99. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Scenes\01. GameScene\Objs\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Scenes\01. GameScene\Objs\Character\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Scenes\01. GameScene\Objs\Character\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLayer.cpp">
+      <Filter>Scenes\01. GameScene\Objs\MapLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Scenes\01. GameScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Scenes\01. GameScene\Objs\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scenes\02. TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Scenes\02. TitleScene\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToScene.cpp">
+      <Filter>Scenes\03. HowToScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>Scenes\05. LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RankingScene.cpp">
+      <Filter>Scenes\04. RankingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RankingManager.cpp">
+      <Filter>Scenes\04. RankingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Scenes\01. GameScene\Objs\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorScene.cpp">
+      <Filter>Scenes\06. EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawnObject.cpp">
+      <Filter>Scenes\06. EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>Scenes\07. ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitBullet.cpp">
+      <Filter>Scenes\01. GameScene\Objs\Character\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>01. Direct3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
