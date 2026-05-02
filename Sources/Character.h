@@ -93,7 +93,7 @@ public:
 
     float r = 1.f, g = 1.f, b = 1.f;
 
-    // ObjectÀ»(¸¦) ÅëÇØ »ó¼ÓµÊ
+    // ObjectÃ€Â»(Â¸Â¦) Ã…Ã«Ã‡Ã˜ Â»Ã³Â¼Ã“ÂµÃŠ
     virtual void Init();
     virtual void Term();
     virtual void Update(float deltaTime);
